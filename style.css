@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url("Backgroundimage.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+}
+.converter-card {
+    background: rgba(255, 255, 255, 0.85); /* Soft white with transparency */
+    backdrop-filter: blur(8px);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 350px;
+    border: 2px solid #c2a76e; /* Soft gold border */
+}
+h2{
+    color: #3d2f2f; /* Dark brown heading */
+    margin-bottom: 15px;
+    margin-right: 30px;
+}
+
+.container{
+ background-color: white;
+ padding:2rem;
+border-radius: 1rem;
+min-height: 45vh;
+width: 40vh;
+}
+form{
+    margin: 2rem 0 1rem 0;
+}
+
+form select ,input ,button {
+    width: 100%;
+border: none;
+outline: none;
+border-radius: 0.75rem;
+}
+
+form input{
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #c2a76e; /* Golden border */
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    background: rgba(255, 255, 255, 0.7);
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+.select-container img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+
+}
+
+.select-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    /* background-color: red; */
+   border-radius: 0.5rem;
+   border :1px solid lightgray;
+
+}
+.dropdown i{
+    font-size:1.5rem;
+    margin-top: 1rem;
+}
+
+.select-container select{
+    font-size:1rem;
+    width: auto;
+}
+.msg{
+    margin:2rem 0 2rem 0;
+
+}
+form button{
+    height:3rem;
+    background-color: #af4d98;
+    color: white;
+    font-size:1.15rem ;
+    cursor: pointer;
+}
+button:hover{
+     background: #6a3c87;
+    transform: scale(1.05);
+}
